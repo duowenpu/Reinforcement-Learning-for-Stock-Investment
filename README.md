@@ -4,7 +4,7 @@ This is my little study for deep reinforcement learning on stocks during the MAD
 For DQN, DDQN, and other RL models for discrete space, the RL model works on a single stock/index. The action space is the position, which is 0% - 100%, representing the market value of the stock and total assets.
 
 If you are interested in trying different indicators, the only thing needed is to add them into stock_df, and change the variable indicators. 'open' and 'close' are needed in the DataFrame to calculate the returns. The data should be like this:
-![./image.png]
+![image.png](attachment:image.png)
 
 If you are interested in changing the time frequency, just keep them in order.
 
